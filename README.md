@@ -1,7 +1,7 @@
 ## Installation
 
 ```bash
-npm install react-spinners --save
+npm i react-dyslexia
 ```
 
 ### Example
@@ -22,6 +22,7 @@ function App() {
 export default App;
 ```
 
+
 | name | types | default | Detail |
 | ------ | ------ |------|------|
 | text | String | 'Dyslexia' | Text for effect |
@@ -36,6 +37,6 @@ export default App;
 * Add support for Typescript.
 
 
-If you want, you can contribute to https://github.com/digitalapplebee/react-dyslexia.
+If you want, you can contribute to https://github.com/digitalapplebee/react-dyslexia
 
-Based on https://github.com/L1fescape/dyslexiagit
+Based on https://github.com/L1fescape/dyslexia
