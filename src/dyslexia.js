@@ -51,6 +51,4 @@ function scrambleWord(word, options) {
 
 dyslexia.scrambleWord = scrambleWord;
 
-// module.exports = dyslexia;
-
 export default dyslexia;

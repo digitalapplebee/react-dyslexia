@@ -1,8 +1,15 @@
 import React, { useState, useEffect } from "react";
 import dyslexiaFunc from './dyslexia';
 
-function Dyslexia({ text, delay }) {
+function Dyslexia({ 
+  text,
+  delay,
+  minWordLength,
+  scrambleChance
+}) {
+
   const [dyslexiaText, setText] = useState();
+
   useEffect(() => {
     handleChange();
   });
@@ -11,12 +18,12 @@ function Dyslexia({ text, delay }) {
     setTimeout(
       () =>
         setText(
-          dyslexiaFunc(text, {
-            minWordLength: 2,
-            scrambleChance: 80
+          dyslexiaFunc(text || 'Dyslexia', {
+            minWordLength: minWordLength || 2,
+            scrambleChance: scrambleChance || 80
           })
         ),
-      delay
+      delay || 2000
     );
   };
 
