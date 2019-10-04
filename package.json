@@ -1,6 +1,6 @@
 {
   "name": "react-dyslexia",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "Dyslexia font effect",
   "main": "build/index.js",
   "repository": {
