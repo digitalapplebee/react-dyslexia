@@ -1,0 +1,42 @@
+{
+  "name": "react-dyslexia",
+  "version": "0.2.1",
+  "description": "Dyslexia font effect",
+  "main": "build/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digitalapplebee/react-dyslexia"
+  },
+  "peerDependencies": {
+    "react": "16.10.2"
+  },
+  "scripts": {
+    "start": "webpack --watch --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Dmitry Priborovich",
+    "email": "digitalapplebee@gmail.com"
+  },
+  "license": "ISC",
+  "keywords": [
+    "react",
+    "dyslexia"
+  ],
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "random-int": "^2.0.1",
+    "react": "^16.10.2",
+    "webpack": "^4.41.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
