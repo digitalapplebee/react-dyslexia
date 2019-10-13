@@ -1,6 +1,6 @@
 {
   "name": "react-dyslexia",
-  "version": "0.3.11",
+  "version": "0.3.12",
   "description": "Dyslexia word effect",
   "main": "build/index.js",
   "repository": {
