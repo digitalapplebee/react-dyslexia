@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/digitalapplebee/react-dyslexia"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "peerDependencies": {
     "react": "16.9.0"
   },
