@@ -1,11 +1,14 @@
 {
   "name": "react-dyslexia",
-  "version": "0.3.12",
+  "version": "0.3.11",
   "description": "Dyslexia word effect",
   "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/digitalapplebee/react-dyslexia"
+  },
+    "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "peerDependencies": {
     "react": "16.9.0"
