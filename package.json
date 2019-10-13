@@ -1,14 +1,17 @@
 {
   "name": "react-dyslexia",
-  "version": "0.3.4",
+  "version": "0.3.7",
   "description": "Dyslexia font effect",
   "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/digitalapplebee/react-dyslexia"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "peerDependencies": {
-    "react": "16.10.2"
+    "react": "16.9.0"
   },
   "scripts": {
     "start": "webpack --watch --mode development",
@@ -26,8 +29,9 @@
   ],
   "dependencies": {
     "lodash": "^4.17.15",
+    "prop-types": "^15.7.2",
     "random-int": "^2.0.1",
-    "react": "^16.10.2",
+    "react": "^16.9.0",
     "webpack": "^4.41.0"
   },
   "devDependencies": {

@@ -32,7 +32,7 @@ export default App;
 
 
 ### TODO LIST
-* Add PropTypes.
+
 * More customizations.
 * Add support for Typescript.
 
