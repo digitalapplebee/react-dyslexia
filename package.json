@@ -1,5 +1,5 @@
 {
-  "name": "react-dyslexia",
+  "name": "@digitalapplebee/react-dyslexia",
   "version": "0.3.9",
   "description": "Dyslexia font effect",
   "main": "build/index.js",
