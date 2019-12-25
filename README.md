@@ -13,8 +13,8 @@ import Dyslexia from "react-dyslexia";
 function App() {
   return (
     <Dyslexia
-      text="There is no such thing as an accident. What we call by that name is the effect of some cause which we do not see."
       delay={500}
+      text="There is no such thing as an accident. What we call by that name is the effect of some cause which we do not see."
     />
   );
 }

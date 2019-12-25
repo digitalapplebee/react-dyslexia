@@ -1,11 +1,15 @@
 {
   "name": "react-dyslexia",
-  "version": "0.3.13",
+  "version": "0.4.0",
   "description": "Dyslexia word effect",
   "main": "build/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/digitalapplebee/react-dyslexia"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalapplebee/react-dyslexia",
+    "email": "digitalapplebee@gmail.com"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -36,11 +40,12 @@
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
-    "babel-cli": "^6.26.0",
+    "@babel/cli": "^7.6.2",
     "babel-loader": "^8.0.6",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.7.0",
+    "serialize-javascript": "^2.1.2",
     "webpack-cli": "^3.3.9"
   }
 }
