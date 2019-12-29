@@ -26,7 +26,7 @@ function dyslexia(str, options) {
 // in-tact. this is important so the text can still be read.
 function scrambleWord(word, options) {
   options = _assignIn({}, options, {
-    minWordLength: 3,
+    minWordLength: 4,
     scrambleChance: 100
   });
 

@@ -28,7 +28,7 @@ function Dyslexia({ text, delay, minWordLength, scrambleChance }) {
 Dyslexia.defaultProps = {
   text: "Dyslexia",
   delay: 500,
-  minWordLength: 3,
+  minWordLength: 4,
   scrambleChance: 80
 };
 

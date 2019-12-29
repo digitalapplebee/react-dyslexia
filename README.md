@@ -27,7 +27,7 @@ export default App;
 | ------ | ------ |------|------|
 | text | String | 'Dyslexia' | Text for effect |
 | delay | Number  | 500 | Delay of dyslexia effect |
-| minWordLength | Number  | 3 |  Minimal word length |
+| minWordLength | Number  | 4 |  Minimal word length |
 | scrambleChance | Number  | 80 | Percentage chance of a word being scrambled |
 
 
