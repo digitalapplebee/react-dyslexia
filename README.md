@@ -4,6 +4,10 @@
 npm i react-dyslexia
 ```
 
+### Demo
+
+[Codesandbox Playground](https://codesandbox.io/s/react-dyslexia-demo-p2ywb "Demo")
+
 ### Example
 
 ```js
