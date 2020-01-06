@@ -1,6 +1,6 @@
 {
   "name": "react-dyslexia",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Dyslexia word effect",
   "main": "build/index.js",
   "repository": {
@@ -23,7 +23,7 @@
     "name": "Dmitry Priborovich",
     "email": "digitalapplebee@gmail.com"
   },
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "react",
     "dyslexia"
