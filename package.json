@@ -29,7 +29,7 @@
     "dyslexia"
   ],
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "prop-types": "^15.7.2",
     "random-int": "^2.0.1",
     "react": "^16.9.0",
