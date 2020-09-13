@@ -33,7 +33,8 @@
     "prop-types": "^15.7.2",
     "random-int": "^2.0.1",
     "react": "^16.9.0",
-    "webpack": "^4.41.0"
+    "webpack": "^4.41.0",
+    "yargs-parser": "^20.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
